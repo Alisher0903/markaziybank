@@ -1,0 +1,13 @@
+.scroll {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    border: 2px solid blue;
+    transition: all .3s;
+
+    &:active {
+        transform: scale(1.5);
+    }
+}
